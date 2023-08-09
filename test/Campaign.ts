@@ -15,7 +15,7 @@ describe("Campaign", function () {
 
   const TOTAL_SUPPLY = 10000000000000;
   const FUNDING_GOAL = 10000000000;
-  const ONE_DAY_IN_SECS = 24 * 60 * 60;
+  const ONE_DAY_IN_SECS = 24 * 3600;
 
   beforeEach(async () => {
     [deployer, projectOwner, funder] = await ethers.getSigners();
